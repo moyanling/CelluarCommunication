@@ -73,8 +73,8 @@ def _log_config():
     logging.addLevelName(CALL_DROPS_C, description[3])
     logging.addLevelName(CALL_SUCCESS, description[4])
     logging.addLevelName(HANDOFF_ATTEMPT, description[5])
-    logging.addLevelName(HANDOFF_FAILURE, description[6])
-    logging.addLevelName(HANDOFF_SUCCESS, description[7])
+    logging.addLevelName(HANDOFF_SUCCESS, description[6])
+    logging.addLevelName(HANDOFF_FAILURE, description[7])
     #---------------------------------------------definition end----------------------------------------
     Console = logging.getLogger('Console')
     console = logging.StreamHandler(sys.stdout)
