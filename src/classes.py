@@ -23,6 +23,8 @@ def shadowing(y):
     '''
     return gc.shadowing_list[int(gc.location.ROAD_LENGTH/20) - int(y/10)]
 
+print(shadowing(0))
+
 def second_deepest_fading():
     '''
     @return: the second smallest fading in dB.

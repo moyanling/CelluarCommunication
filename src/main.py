@@ -11,6 +11,7 @@ from global_config import *
 from classes import Basestation, MobileUser
 import global_config as gc
 import xlwt
+
 '''
 FYI:
 For users who are making phone requests, in the program they are notated as 'caller'.
@@ -214,9 +215,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-#     print(beta.get_RSL(-4000))
-    
+    main()  
     
     
     

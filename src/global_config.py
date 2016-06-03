@@ -4,7 +4,7 @@ Created on Sat Apr 30 11:50:55 2016
 @author: Jihan Chen
 """
 import os, sys, logging, numpy
-global content, location, TIME_STEP, t, shadowing_list  # , call_attempt_num, call_success_num, call_blocked_num, call_drops_num, handoff_failure, handoff_success
+global content, location, TIME_STEP, t, shadowing_list  
 
 t = 0
 TIME_STEP = 1  # in s
